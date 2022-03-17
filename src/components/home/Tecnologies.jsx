@@ -1,4 +1,5 @@
 import htmlIcon from "./../../assets/icon/html_icon.svg"
+import cssIcon from "./../../assets/icon/css3_icon.svg"
 
 const Tecnologies = () => (
 	<section className="main__tecnologies__container">
@@ -13,7 +14,7 @@ const Tecnologies = () => (
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/css3_icon.svg" 
+					src={ cssIcon }
 					alt="CSS icon"
 				/>
 				CSS3
