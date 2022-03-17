@@ -1,10 +1,12 @@
+import htmlIcon from "./../../assets/icon/html_icon.svg"
+
 const Tecnologies = () => (
 	<section className="main__tecnologies__container">
 		<h3>Tecnologies/Frameworks</h3>
 		<ul className="main__list__tecnologies">
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/html_icon.svg" 
+					src={ htmlIcon } 
 					alt="HTML icon" 
 				/>
 					HTML5
