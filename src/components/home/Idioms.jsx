@@ -1,10 +1,12 @@
+import usIcon from '../../assets/icon/us_icon.png'
+
 const Idioms = () => (
 	<section className="main__idioms__container">
 		<h3>Languages</h3>
 		<ul className="main__idioms__list">
 			<li className="main__idioms__list__item">
 				<img
-					src="/src/assets/icon/us_icon.png"
+					src={ usIcon }
 					alt="English icon"
 				/>
 				<span>English Basic</span>

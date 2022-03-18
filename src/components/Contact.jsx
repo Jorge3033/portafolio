@@ -1,10 +1,13 @@
+import emailIcon from "../assets/icon/email_icon.svg"
+import gitHubIcon from "../assets/icon/github_icon.svg"
+
 const Contact = () => (
 	<section id="contact" className="main__contact__container">
 		<h3>Contact Me</h3>
 		<ul className="main__contact__list">
 			<li className="main__contact__list__item">
 				<img
-					src="/src/assets/icon/email_icon.svg"
+					src={ emailIcon }
 					alt="Email icon"
 				/>
 				<a 
@@ -15,7 +18,7 @@ const Contact = () => (
 				className="main__contact__list__item"
 			>
 				<img
-					src="/src/assets/icon/github_icon.svg"
+					src={ gitHubIcon }
 					alt="GitHub icon"
 				/>
 				<a 

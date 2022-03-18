@@ -1,5 +1,17 @@
 import htmlIcon from "./../../assets/icon/html_icon.svg"
 import cssIcon from "./../../assets/icon/css3_icon.svg"
+import javascriptIcon from "./../../assets/icon/javascript_icon.svg"
+import phpIcon from "./../../assets/icon/php_icon.svg"
+import mysqlIcon from "./../../assets/icon/mysql_icon.svg"
+import laravelIcon from "./../../assets/icon/laravel_icon.svg"
+import vueIcon from "./../../assets/icon/vue_icon.svg"
+import reactIcon from "./../../assets/icon/react_icon.svg"
+import bootstrapIcon from "./../../assets/icon/bootstrap_icon.svg"
+import gitIcon from "./../../assets/icon/git_icon.svg"
+import gitHubIcon from "./../../assets/icon/gitHub_icon.svg"
+import linuxIcon from "./../../assets/icon/linux_icon.svg"
+import scrumIcon from "./../../assets/icon/scrum_icon.svg"
+import javaIcon from "./../../assets/icon/java_icon.svg"
 
 const Tecnologies = () => (
 	<section className="main__tecnologies__container">
@@ -21,87 +33,87 @@ const Tecnologies = () => (
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/javascript_icon.svg" 
+					src={ javascriptIcon }
 					alt="Javascript icon"
 				/>
 				JavaScript
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/php_icon.svg" 
+					src={ phpIcon }
 					alt="PHP icon"
 				/>
 				PHP
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/mysql_icon.svg" 
+					src={ mysqlIcon }
 					alt="MySQL icon"
 				/>
 				MySQL
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/laravel_icon.svg" 
+					src={ laravelIcon }
 					alt="laravel icon"
 				/>
 				Laravel
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/vue_icon.svg" 
+					src={ vueIcon }
 					alt="Vue icon"
 				/>
 				VueJS
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/react_icon.svg" 
-					alt="NodeJS icon"
+					src={ reactIcon }
+					alt="ReactJS icon"
 				/>
 				ReactJS
 			</li>
 				<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/bootstrap_icon.svg" 
+					src={ bootstrapIcon }
 					alt="Bootstrap icon"
 				/>
 				Bootstrap
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/git_icon.svg" 
+					src={ gitIcon }
 					alt="Git icon"
 				/>
 				Git
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/gitHub_icon.svg" 
+					src={ gitHubIcon }
 					alt="GitHub icon"
 				/>
 				GitHub
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/linux_icon.svg" 
-					alt="GitHub icon"
+					src={ linuxIcon }
+					alt="Linux icon"
 				/>
 				Linux
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/scrum_icon.svg" 
-					alt="GitHub icon"
+					src={ scrumIcon }
+					alt="Scrum icon"
 				/>
 				Scrum
 			</li>
 			<li className="main__list__tecnologies__item">
 				<img 
-					src="/src/assets/icon/java_icon.svg" 
-					alt="Git icon"
+					src={ javaIcon }
+					alt="java icon"
 				/>
-				Java Basic
+				Java
 			</li>
 		</ul>
 	</section>

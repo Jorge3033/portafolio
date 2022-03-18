@@ -1,9 +1,12 @@
+import correspondenceImg from './../assets/img/correspondence/panel.png';
+import laboratoryImg from './../assets/img/laboratory/home.png';
+
 const Projects = () => (
 	<section className="main__projects">
 		<h2 className="main__projects__title text-primary">Projects</h2>
 		<div className="main__projects__container">
 			<div className="main__projects__card__img main-mt-3rem">
-				<img src="/src/assets/img/correspondencia/panel.png" alt="Correspondence Project"/>
+				<img src={ correspondenceImg } alt="Correspondence Project"/>
 				<div className="main__projects__card__body">
 					<h3>About</h3>
 					<p>
@@ -22,7 +25,7 @@ const Projects = () => (
 				</div>
 			</div>
 			<div className="main__projects__card__img main-mb-3rem">
-				<img src="/src/assets/img/laboratory/home.png" alt="Labotatory Project"/>
+				<img src={ laboratoryImg } alt="Labotatory Project"/>
 				<div className="main__projects__card__body">
 					<h3>About</h3>
 					<p>
