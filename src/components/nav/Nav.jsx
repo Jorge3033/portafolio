@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import NavItem from './NavItem'
+import navIcon from './../../assets/icon/menu_icon.svg'
 
 const Nav = ({showMenu}) => {
 
@@ -19,7 +20,7 @@ const Nav = ({showMenu}) => {
 
 				<img
 					className="nav__menu-icon"
-					src="/src/assets/icon/menu_icon.svg"
+					src= { navIcon }
 					onClick={handleShowNav}
 				/>
 
