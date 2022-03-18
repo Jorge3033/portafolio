@@ -1,5 +1,5 @@
 import emailIcon from "../assets/icon/email_icon.svg"
-import gitHubIcon from "../assets/icon/github_icon.svg"
+import gitHubIcon from "../assets/icon/gitHub_icon.svg"
 
 const Contact = () => (
 	<section id="contact" className="main__contact__container">
@@ -10,7 +10,7 @@ const Contact = () => (
 					src={ emailIcon }
 					alt="Email icon"
 				/>
-				<a 
+				<a
 					href={ `mailto:${ import.meta.env.VITE_MAIL_CONTACT }` }
 				>Correo</a>
 			</li>
@@ -21,7 +21,7 @@ const Contact = () => (
 					src={ gitHubIcon }
 					alt="GitHub icon"
 				/>
-				<a 
+				<a
 					href={ import.meta.env.VITE_GITHUB_CONTACT }
 					target="_blank"
 				>GitHub</a>
