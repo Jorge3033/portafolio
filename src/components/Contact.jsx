@@ -1,5 +1,6 @@
 import emailIcon from "../assets/icon/email_icon.svg"
 import gitHubIcon from "../assets/icon/gitHub_icon.svg"
+import linkedInIcon from "../assets/icon/linkedin_icon.svg"
 
 const Contact = () => (
 	<section id="contact" className="main__contact__container">
@@ -28,7 +29,7 @@ const Contact = () => (
 			</li>
 			<li className="main__contact__list__item">
 				<img
-					src="/src/assets/icon/linkedin_icon.svg"
+					src={ linkedInIcon }
 					alt="LinkedIn icon"
 				/>
 				LinkedIn:
