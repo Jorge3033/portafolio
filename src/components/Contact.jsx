@@ -13,7 +13,7 @@ const Contact = () => (
 				/>
 				<a
 					href={ `mailto:${ import.meta.env.VITE_MAIL_CONTACT }` }
-				>Correo</a>
+				>E mail</a>
 			</li>
 			<li
 				className="main__contact__list__item"
